@@ -63,35 +63,61 @@
          color: green;
          text-align: center;
          }
+         code {
+         color: green;
+         background: black;
+         }
       </style>
    </head>
    <body style="background-color: green;">
       <header>ПРИВЕтСТВУЮ НА СвОЕМ САЙТЕ-ПОРТФ0ЛИО</header>
-      <img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/cat1.png" alt width="204" height="204" class="cat1" title="Это левый верхний котик"><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/cat2.png" alt width="199" height="199" class="cat2" title="Это правый верхний котик"><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/cat3.png" alt width="178" height="178" class="cat3" title="Это третий котик, он любит юморить, вот вам анекдот от него:
-         - Убери этих котов со своего сайта, выглдяит ужасно и переделай цвета со шрифтами, они вырвиглазные!
-         — У вас тире короткое)))) мяу"><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/cat4.png" alt width="186" height="187" class="cat4" title="Это четвертный котик, который находится справа внизу"><img src="https://avatars.githubusercontent.com/u/40688428?s=60&v=4" alt width="200" height="96" style="float: left;" class="image" title="Это я!!">
-      <h1 style="color: blue;">Привет!<span class="helloSpan">не шутить</span></h1>
-      <p style="color: red;">Меня зовут Даня, мне 19 лет (почти 20!!!). Я люблю пицу, Женечбку и своих друзей. Я работаю iOS-разработчиком, и я написал этот сайт на Swift</p>
-      <aside>
-         <p>Текст</p>
-         <p>Вставить текст</p>
-         <p>Ремарк</p>
-         <p>Вставить Ремарку (не Марии (если что это я не про Машу (чел, ты сам себя закапываешь (ладно))))</p>
-      </aside>
-      <article class="mainArticle">Тут я буду рассказывать историю о своей жизни, но мне уже пора спать, поэтому я напишу ее в следующий раз. Сейчас я просто хочу добавить много текста, чтобы посмотреть, как будет работать асайд. Кстати об асайде. Я вспомнил видос про чай ассам. Чай «Ассам» — а сам возьми и налей свой *** чаЙ!</article>
-      <div style="clear:both;">
-      <h2 class="ruleTitle">Правила сайта:</h2>
-      <ol class="rules">
-         <li>Даня всегда прав</li>
-         <li>Если Даня не прав, смотри первый пункт</li>
-      </ol>
-      </div>
-      <h4 style="color: pink;">Мое жизненное кредо:</h4>
-      <blockquote>Становись лучше каждый день, чтобы 💫<span style="color: red;">б</span><span style="color: #FF8C00;">ы</span><span style="color: yellow;">в</span><span style="color: green;text-shadow: black 0 0 5px;">ш</span><span style="color: blue;">а</span><span style="color: purple;">я</span>🌟 к тебе вернулась.</blockquote>
-      <h3 style="color: purple;">Мои достижения</h3>
-      <ul>
-         <li>Расстаться с <a href="https://vk.com/careenin" title="Если у меня с ней ничего не сложится, то я убью себя">девушкой</a>, которая нереально меня любила</li>
-      </ul>
-      <footer>© КоПиРаЙт Даниил Храповицкий M33061<br>Сдeлано с Любовью ❤️<span class="jenechka">к Женечке 🥀16.01.2018-20.12.2020🥀</span></footer>
+      <main>
+         <img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/cat1.png" alt width="204" height="204" class="cat1" title="Это левый верхний котик"><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/cat2.png" alt width="199" height="199" class="cat2" title="Это правый верхний котик"><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/cat3.png" alt width="178" height="178" class="cat3" title="Это третий котик, он любит юморить, вот вам анекдот от него:
+            - Убери этих котов со своего сайта, выглдяит ужасно и переделай цвета со шрифтами, они вырвиглазные!
+            — У вас тире короткое)))) мяу"><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/cat4.png" alt width="186" height="187" class="cat4" title="Это четвертный котик, который находится справа внизу"><img src="https://avatars.githubusercontent.com/u/40688428?s=60&v=4" alt width="200" height="96" style="float: left;" class="image" title="Это я!!">
+         <h1 style="color: blue;">Привет!<span class="helloSpan">не шутить</span></h1>
+         <p style="color: red;">Меня зовут <img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/me.gif" alt title="Нереально красивая надпись Даня">, мне 19 лет (почти 20!!!). Я люблю пицу, Женечбку (а она меня нет) и своих друзей. Я работаю iOS-разработчиком, и я написал этот сайт на Swift</p>
+         <p>Кусок кода на свифте<br><code>protocol Nodable {<br>    func eraseToNode() -> Node<br>}<br><br>extension Node: Nodable {<br>    func eraseToNode() -> Node { self }<br>}<br><br>extension String: Nodable {<br>    func eraseToNode() -> Node { .text(self) }<br>}</code></p>
+         <aside>
+            <p>Текст<span style="float: right; color: white; background: black;">Блин, котяра, ты зачем на aside заелз? Давай шуруй отсюда менять z-index......</span></p>
+            <p>Вставить текст</p>
+            <p>Ремарк</p>
+            <p>Вставить Ремарку (не Марии (если что это я не про Машу (чел, ты сам себя закапываешь (ладно))))</p>
+         </aside>
+         <article class="mainArticle">Тут я буду рассказывать историю о своей жизни, но мне уже пора спать, поэтому я напишу ее в следующий раз. Сейчас я просто хочу добавить много текста, чтобы посмотреть, как будет работать асайд. Кстати об асайде. Я вспомнил видос про чай ассам. Чай «Ассам» — а сам возьми и налей свой *** чаЙ!</article>
+         <div style="clear: both;">
+            <h2 class="ruleTitle">Правила сайта:</h2>
+            <ol class="rules">
+               <li>Даня всегда прав</li>
+               <li>Если Даня не прав, смотри первый пункт</li>
+            </ol>
+         </div>
+         <h1 style="float: left;"><sup style="color: red;">a</sup><sub style="color: blue;">b</sub><sup style="color: red;">o</sup><sub style="color: blue;">b</sub><sup style="color: red;">a</sup></h1>
+         <h1 style="float: right;"><sup style="color: red;">a</sup><sub style="color: blue;">b</sub><sup style="color: red;">o</sup><sub style="color: blue;">b</sub><sup style="color: red;">a</sup></h1>
+         <h4 style="color: pink;">Мое жизненное кредо:</h4>
+         <q>Становись лучше каждый день, чтобы 💫<span style="color: red;">б</span><span style="color: #FF8C00;">ы</span><span style="color: yellow;">в</span><span style="color: green;text-shadow: black 0 0 5px;">ш</span><span style="color: blue;">а</span><span style="color: purple;">я</span>🌟 к тебе вернулась.</q>
+         <h3 style="color: purple;">Мои достижения</h3>
+         <ul>
+            <li>Расстаться с <a href="https://vk.com/careenin" title="Если у меня с ней ничего не сложится, то я убью себя">девушкой</a>, которая нереально меня любила</li>
+         </ul>
+         <p>А я еще сюда Женю вставлю. Это же<span style="color: red; font-size: 20px;"> МОЙ </span>сайт.<u>Что хочу, то и делаю.</u></p>
+         <img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/jenya.png" alt style="max-height: 100px; wight: auto; clear: both;">
+         <p>Если захочу — вставлю 10 Жень.</p>
+         <p>А знаете что?</p>
+         <h2 style="color: yellow;">Захочу!</h2>
+         <div><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/jenya.png" alt style="max-height: 100px; wight: auto;float: left;"><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/jenya.png" alt style="max-height: 100px; wight: auto;float: left;"><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/jenya.png" alt style="max-height: 100px; wight: auto;float: left;"><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/jenya.png" alt style="max-height: 100px; wight: auto;float: left;"><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/jenya.png" alt style="max-height: 100px; wight: auto;float: left;"><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/jenya.png" alt style="max-height: 100px; wight: auto;float: left;"><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/jenya.png" alt style="max-height: 100px; wight: auto;float: left;"><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/jenya.png" alt style="max-height: 100px; wight: auto;float: left;"><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/jenya.png" alt style="max-height: 100px; wight: auto;float: left;"><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/jenya.png" alt style="max-height: 100px; wight: auto;float: left;"></div>
+         <p style="color: navy; clear: both;">Что там еще надо было добавить на сайт? <span style="font-size: 10px; color: indigo">Псевдографика, section и nav </span>хмхмххмхм........<span style="color: chartreuse"> Давайте делать, ничего не поделаешь</span></p>
+         <h2>Так, стоп</h2>
+         <div style="background: black;">
+            <img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/dog.png" alt style="width: 40%; margin-left: auto; margin-right: auto; display: block; padding: 30px 0 0 0;" title="dog">
+            <p style="color: white; font-size: 20px; text-align: center;">АХАХАХАХаххХАХХахХАХАХАХАХАХАххХАХахАХХАХАХАХАХхАХАХАХАх</p>
+            <p style="color: white; font-size: 16px; text-align: center;">Кто это?</p>
+            <p style="color: white; font-size: 12px; text-align: center;">Подпись у картинки dog, ты не видишь чтоли?</p>
+            <p style="color: white; font-size: 12px; text-align: center;">Вижу, но я просто не хочу работать, пожтому я делаю этот сайт</p>
+            <p style="color: white; font-size: 11px; text-align: center;">Аааааааа, ну ладно)</p>
+            <p style="color: white; font-size: 8px; padding: 0 0 20px 0; text-align: center;">Вставить текст</p>
+         </div>
+      </main>
+      <footer style="clear: both;">© КоПиРаЙт Даниил Храповицкий M33061<br>Сдeлано с Любовью ❤️<span class="jenechka">к Женечке 🥀16.01.2018-20.12.2020🥀</span></footer>
    </body>
 </html>
