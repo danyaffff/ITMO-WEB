@@ -13,19 +13,19 @@
          z-index: -1;
          }
          .cat2 {
-         position: absolute;
+         position: fixed;
          top: 0px;
          right: 200px;
          z-index: -1;
          }
          .cat3 {
-         position: absolute;
+         position: fixed;
          bottom: 50px;
          left: 70px;
          z-index: -1;
          }
          .cat4 {
-         position: absolute;
+         position: fixed;
          bottom: 20px;
          right: 20px;
          }
@@ -37,10 +37,6 @@
          .jenechka {
          font-size: 6px;
          color: blue;
-         background: red;
-         }
-         header {
-         color: pink;
          background: red;
          }
          footer {
@@ -67,19 +63,22 @@
          color: green;
          background: black;
          }
+         .stroked {
+         text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+         }
       </style>
    </head>
-   <body style="background-color: green;">
-      <header>ПРИВЕтСТВУЮ НА СвОЕМ САЙТЕ-ПОРТФ0ЛИО</header>
+   <body style="background-color: green; background-image: repeating-linear-gradient(90deg,red, orange, yellow, green, blue, purple 10%);">
+      <header><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/hello.png" alt style="width: 70%; margin-left: auto; margin-right: auto; display: block;"></header>
       <main>
          <img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/cat1.png" alt width="204" height="204" class="cat1" title="Это левый верхний котик"><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/cat2.png" alt width="199" height="199" class="cat2" title="Это правый верхний котик"><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/cat3.png" alt width="178" height="178" class="cat3" title="Это третий котик, он любит юморить, вот вам анекдот от него:
             - Убери этих котов со своего сайта, выглдяит ужасно и переделай цвета со шрифтами, они вырвиглазные!
             — У вас тире короткое)))) мяу"><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/cat4.png" alt width="186" height="187" class="cat4" title="Это четвертный котик, который находится справа внизу"><img src="https://avatars.githubusercontent.com/u/40688428?s=60&v=4" alt width="200" height="96" style="float: left;" class="image" title="Это я!!">
-         <h1 style="color: blue;">Привет!<span class="helloSpan">не шутить</span></h1>
-         <p style="color: red;">Меня зовут <img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/me.gif" alt title="Нереально красивая надпись Даня">, мне 19 лет (почти 20!!!). Я люблю пицу, Женечбку (а она меня нет) и своих друзей. Я работаю iOS-разработчиком, и я написал этот сайт на Swift</p>
+         <h1 style="color: blue;" class="stroked">Привет!<span class="helloSpan" class="stroked">не шутить</span></h1>
+         <p style="color: red;" class="stroked">Меня зовут <img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/me.gif" alt title="Нереально красивая надпись Даня">, мне 19 лет (почти 20!!!). Я люблю пицу, Женечбку (а она меня нет) и своих друзей. Я работаю iOS-разработчиком, и я написал этот сайт на Swift</p>
          <p>Кусок кода на свифте<br><code>protocol Nodable {<br>    func eraseToNode() -> Node<br>}<br><br>extension Node: Nodable {<br>    func eraseToNode() -> Node { self }<br>}<br><br>extension String: Nodable {<br>    func eraseToNode() -> Node { .text(self) }<br>}</code></p>
          <aside>
-            <p>Текст<span style="float: right; color: white; background: black;">Блин, котяра, ты зачем на aside заелз? Давай шуруй отсюда менять z-index......</span></p>
+            <p>Текст</p>
             <p>Вставить текст</p>
             <p>Ремарк</p>
             <p>Вставить Ремарку (не Марии (если что это я не про Машу (чел, ты сам себя закапываешь (ладно))))</p>
@@ -118,6 +117,6 @@
             <p style="color: white; font-size: 8px; padding: 0 0 20px 0; text-align: center;">Вставить текст</p>
          </div>
       </main>
-      <footer style="clear: both;">© КоПиРаЙт Даниил Храповицкий M33061<br>Сдeлано с Любовью ❤️<span class="jenechka">к Женечке 🥀16.01.2018-20.12.2020🥀</span></footer>
+      <footer style="clear: both;">© КоПиРаЙт Даниил Храповицкий M33061 2021 век сентябрь гориииит убийца плачет нооо он не мог поступить иначеее прольееееется крооооооовь <br>Сдeлано с Любовью ❤️<span class="jenechka">к Женечке 🥀16.01.2018-20.12.2020🥀</span></footer>
    </body>
 </html>
