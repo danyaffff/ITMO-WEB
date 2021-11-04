@@ -1,0 +1,269 @@
+body {
+    background-color: green;
+    background-image: repeating-linear-gradient(90deg, red, orange, yellow, green, blue, purple 10%);
+}
+
+aside {
+    background: yellow;
+    float: right;
+    border: dashed red;
+}
+
+code {
+    color: green;
+    background: black;
+}
+
+nav {
+    background: green;
+}
+
+section {
+    background: red;
+    border: solid green;
+    border-radius: 20px;
+}
+
+.blue {
+    color: blue;
+}
+
+.background_blue {
+    background: blue;
+}
+
+.red {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.orange {
+    color: orange;
+}
+
+.black {
+    color: black;
+}
+
+.background_black {
+    background: black;
+}
+
+.white {
+    color: white;
+}
+
+.background_white {
+    background: white;
+}
+
+.green {
+    color: green;
+}
+
+.background_green {
+    color: green;
+}
+
+.purple {
+    color: purple;
+}
+
+.pink {
+    color: pink;
+}
+
+.navy {
+    color: navy;
+}
+
+.indigo {
+    color: indigo
+}
+
+.chartreuse {
+    color: chartreuse;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.clear {
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.image {
+    float: left;
+    margin-right: 20px;
+}
+
+.helloSpan {
+    font-size: 10px;
+}
+
+.cat1 {
+    position: fixed;
+    top: 120px;
+    left: 20px;
+    z-index: -1;
+}
+
+.cat2 {
+    position: fixed;
+    top: 0;
+    right: 200px;
+    z-index: -1;
+}
+
+.cat3 {
+    position: fixed;
+    bottom: 50px;
+    left: 70px;
+    z-index: -1;
+}
+
+.cat4 {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: -1;
+}
+
+.font_size_8 {
+    font-size: 8px;
+}
+
+.font_size_10 {
+    font-size: 10px;
+}
+
+.font_size_11 {
+    font-size: 11px;
+}
+
+.font_size_12 {
+    font-size: 12px;
+}
+
+.font_size_16 {
+    font-size: 16px;
+}
+
+.font_size_20 {
+    font-size: 20px;
+}
+
+.jenechka {
+    font-size: 6px;
+    color: blue;
+    background: red;
+}
+
+.mainArticle {
+    color: blue;
+    font-style: italic;
+    text-shadow: gray 3px 3px 0;
+}
+
+.rules {
+    color: white;
+    text-align: center;
+}
+
+.ruleTitle {
+    text-shadow: black 0 0 5px;
+    color: green;
+    text-align: center;
+}
+
+.stroked {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.title {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.ex_shadow {
+    text-shadow: black 0 0 5px;
+}
+
+.width_40 {
+    width: 40%;
+}
+
+.width_50 {
+    width: 50%;
+}
+
+.width_80 {
+    width: 80%;
+}
+
+.width_auto {
+    width: auto;
+}
+
+.max_height_100 {
+    max-height: 100px;
+}
+
+.margin_left_auto {
+    margin-left: auto;
+}
+
+.margin_right_auto {
+    margin-right: auto;
+}
+
+.block {
+    display: block;
+}
+
+.padding_top_20 {
+    padding: 20px 0 0 0;
+}
+
+.padding_top_30 {
+    padding: 30px 0 0 0;
+}
+
+.padding_bottom_20 {
+    padding: 0 0 20px 0;
+}
+
+.border_solid_white {
+    border: solid white;
+}
+
+.centered_text {
+    text-align: center;
+}
+
+.overflow_hidden {
+    overflow: hidden;
+}
+
+.size_30px {
+    width: 30px;
+    height: 30px;
+}
+
+.z_10 {
+    z-index: 10;
+}
