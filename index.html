@@ -1,155 +1,187 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="ru">
+<head>
     <title>😍Факты обо мне😱</title>
-    <meta lang="ru" charset="utf-8">
-    <style>.image {
-      margin-right: 20px;
-      }
-      .cat1 {
-      position: fixed;
-      top: 120px;
-      left: 20px;
-      z-index: -1;
-      }
-      .cat2 {
-      position: fixed;
-      top: 0px;
-      right: 200px;
-      z-index: -1;
-      }
-      .cat3 {
-      position: fixed;
-      bottom: 50px;
-      left: 70px;
-      z-index: -1;
-      }
-      .cat4 {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      z-index: -1;
-      }
-      aside {
-      background: yellow;
-      float: right;
-      border: dashed red;
-      }
-      .jenechka {
-      font-size: 6px;
-      color: blue;
-      background: red;
-      }
-      .mainArticle {
-      color: blue;
-      font-style: italic;
-      text-shadow: gray 3px 3px 0;
-      }
-      .helloSpan {
-      font-size: 10px;
-      }
-      .rules {
-      color: white;
-      text-align: center;
-      }
-      .ruleTitle {
-      text-shadow: black 0 0 5px;
-      color: green;
-      text-align: center;
-      }
-      code {
-      color: green;
-      background: black;
-      }
-      .stroked {
-      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-      }
-    </style>
-  </head>
-  <body style="background-color: green; background-image: repeating-linear-gradient(90deg,red, orange, yellow, green, blue, purple 10%);">
-    <header><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/hello.png" alt style="width: 70%; margin-left: auto; margin-right: auto; display: block;" title="Мужик, зима. Один к другому на улице подходит: «Огоньку не найдется?». А тут, значит, у него бензиновая зажигалка потекла в кармане, вынул, чиркнул, вся рука загорелась, а этот от руки прикурил и говорит: «Ну ты *** фокусник!»"></header>
-    <main>
-      <nav style="background: green;"><a title="Тут когда-нибудь, возможно, будет очень смешно, но пока не смешно, не смеемся">Мои любимые анекдоты</a> | <a href="#socials">Мои социалочки</a></nav>
-      <img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/cat1.png" alt width="204" height="204" class="cat1" title="Это левый верхний котик"><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/cat2.png" alt width="199" height="199" class="cat2" title="Это правый верхний котик"><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/cat3.png" alt width="178" height="178" class="cat3" title="Это третий котик, он любит юморить, вот вам анекдот от него:
-        - Убери этих котов со своего сайта, выглдяит ужасно и переделай цвета со шрифтами, они вырвиглазные!
-        — У вас тире короткое)))) мяу"><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/cat4.png" alt width="186" height="187" class="cat4" title="Это четвертный котик, который находится справа внизу. А еще он перекрывает все элементы. Котик, зачем ты это делаешь?"><img src="https://avatars.githubusercontent.com/u/40688428?s=60&v=4" alt width="200" height="96" style="float: left;" class="image" title="Это я!!">
-      <h1 style="color: blue;" class="stroked">Привет!<span class="helloSpan" class="stroked">не шутить</span></h1>
-      <p style="color: red;" class="stroked">Меня зовут <img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/me.gif" alt title="Нереально красивая надпись Даня">, мне уже 20 лет 👨‍🦳. Я люблю пицу, Женечбку (а она меня нет) и своих друзей. Я работаю iOS-разработчиком, и я написал этот сайт на Swift</p>
-      <section style="background: red; border: solid, green; border-radius: 20px;">
-        <h2 style="color: blue;" class="stroked">О моей работе.............</h2>
-        <p style="color: yellow;" class="stroked">С 27 декабря 2020 года я работал в компании <a href="https://www.sixhands.co" style="color: black; font-size: 20px;">sixhands</a> в должности «Младший программист» 👶🧑‍💻</p>
-        <p style="color: yellow;" class="stroked">С 21 сентября 2021 года я работаю в компании <a href="https://cleverpumpkin.ru" style="color: orange; font-size: 20px;"><span style="color: orange; font-weight: 800;">clever</span><span style="color: black;">pumpkin</span></a> в должности «Разработчик» 🧒🧑‍💻</p>
-      </section>
-      <p>
-        <span class="stroked" style="color: white;">Кусок кода на свифте</span><br>
-        <code>
-      <pre>protocol Nodable {
-      func eraseToNode() -> Node
-      }
-      extension Node: Nodable {
-      func eraseToNode() -> Node { self }
-      }
-      extension String: Nodable {
-      func eraseToNode() -> Node { .text(self) }
-      }</pre></code></p>
-      <aside>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<header>
+    <img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/hello.png" alt class="title" title="Мужик, зима. Один к другому на улице подходит: «Огоньку не найдется?». А тут, значит, у него бензиновая зажигалка потекла в кармане, вынул, чиркнул, вся рука загорелась, а этот от руки прикурил и говорит: «Ну ты *** фокусник!»">
+</header>
+<main>
+    <nav>
+        <a title="Тут когда-нибудь, возможно, будет очень смешно, но пока не смешно, не смеемся">Мои любимые анекдоты</a>
+        |
+        <a href="#socials">Мои социалочки</a>
+    </nav>
+    <img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/cat1.png" alt width="204" height="204" class="cat1">
+    <img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/cat2.png" alt width="199" height="199" class="cat2">
+    <img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/cat3.png" alt width="178" height="178" class="cat3">
+    <img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/cat4.png" alt width="186" height="187" class="cat4">
+    <img src="https://avatars.githubusercontent.com/u/40688428?s=60&v=4" alt width="200" height="96" class="image" title="Это я!!">
+    <h1 class="blue stroked">
+        Привет!
+        <span class="helloSpan stroked">не шутить</span>
+    </h1>
+    <p class="red stroked">
+        Меня зовут
+        <img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/me.gif" alt title="Нереально красивая надпись Даня">
+        , мне уже 20 лет 👨‍🦳. Я люблю пицу, Женечбку (а она меня нет) и своих друзей. Я работаю iOS-разработчиком, и я написал этот сайт на Swift
+    </p>
+    <section>
+        <h2 class="blue stroked">О моей работе.............</h2>
+        <p class="yellow stroked">С 27 декабря 2020 года я работал в компании
+            <a href="https://www.sixhands.co" class="black fontsize_20">sixhands</a>
+            в должности «Младший программист» 👶🧑‍💻
+        </p>
+        <p class="yellow stroked">С 21 сентября 2021 года я работаю в компании
+            <a href="https://cleverpumpkin.ru" class="orange fontsize_20">
+                <span class="orange bold">clever</span>
+                <span class="black">pumpkin</span>
+            </a>
+            в должности «Разработчик» 🧒🧑‍💻
+        </p>
+    </section>
+    <div>
+        <span class="white stroked">Кусок кода на свифте</span><br>
+        <pre>
+            <code>
+                protocol Nodable {
+                    func eraseToNode() -> Node
+                }
+
+                 extension Node: Nodable {
+                    func eraseToNode() -> Node { self }
+                 }
+
+                 extension String: Nodable {
+                    func eraseToNode() -> Node { .text(self) }
+                 }
+             </code>
+        </pre>
+    </div>
+    <aside>
         <p>Текст</p>
         <p>Вставить текст</p>
         <p>Ремарк</p>
         <p>Вставить Ремарку (не Марии (если что это я не про Машу (чел, ты сам себя закапываешь (ладно))))</p>
-      </aside>
-      <article class="mainArticle">Тут я буду рассказывать историю о своей жизни, но мне уже пора спать, поэтому я напишу ее в следующий раз. Сейчас я просто хочу добавить много текста, чтобы посмотреть, как будет работать асайд. Кстати об асайде. Я вспомнил видос про чай ассам. Чай «Ассам» — а сам возьми и налей свой *** чаЙ!</article>
-      <div style="clear: both;" class="stroked">
+    </aside>
+    <article class="mainArticle">
+        Тут я буду рассказывать историю о своей жизни, но мне уже пора спать, поэтому я напишу
+        ее в следующий раз. Сейчас я просто хочу добавить много текста, чтобы посмотреть, как будет работать асайд.
+        Кстати об асайде. Я вспомнил видос про чай ассам. Чай «Ассам» — а сам возьми и налей свой *** чаЙ!
+    </article>
+    <div class="class stroked">
         <h2 class="ruleTitle">Правила сайта:</h2>
         <ol class="rules">
-          <li>Даня всегда прав</li>
-          <li>Если Даня не прав, смотри первый пункт</li>
+            <li>Даня всегда прав</li>
+            <li>Если Даня не прав, смотри первый пункт</li>
         </ol>
-      </div>
-      <h1 style="float: left;"><sup style="color: red;">a</sup><sub style="color: green;">b</sub><sup style="color: red;">o</sup><sub style="color: purple;">b</sub><sup style="color: red;">a</sup></h1>
-      <h1 style="float: right;"><sup style="color: red;">a</sup><sub style="color: purple;">b</sub><sup style="color: red;">o</sup><sub style="color: green;">b</sub><sup style="color: red;">a</sup></h1>
-      <div style="background: blue;">
-        <h4 style="background: green; color: pink;">Мое жизненное кредо:</h4>
-        <q style="color: green;" class="stroked">Становись лучше каждый день, чтобы 💫<span style="background: white; text-shadow: black 0 0 5px;" class="stroked"><span style="color: red; " class="stroked">б</span><span style="color: #FF8C00;">ы</span><span style="color: yellow;">в</span><span style="color: green;">ш</span><span style="color: blue;">а</span><span style="color: purple;">я</span></span>🌟 к тебе вернулась.</q>
-      </div>
-      <h3 style="color: purple;">Мои достижения</h3>
-      <ul>
-        <li>Расстаться с <a href="https://vk.com/careenin" title="Если у меня с ней ничего не сложится, то я убью себя">девушкой</a>, которая нереально меня любила</li>
-      </ul>
-      <p>А я еще сюда Женю вставлю. Это же<span style="color: red; font-size: 20px;"> МОЙ </span>сайт.<u>Что хочу, то и делаю.</u></p>
-      <img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/jenya.png" alt style="max-height: 100px; wight: auto; clear: both;">
-      <p>Если захочу — вставлю 10 Жень.</p>
-      <p>А знаете что?</p>
-      <h2 style="color: yellow;" class="stroked">Захочу!</h2>
-      <div><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/jenya.png" alt style="max-height: 100px; wight: auto;float: left;"><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/jenya.png" alt style="max-height: 100px; wight: auto;float: left;"><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/jenya.png" alt style="max-height: 100px; wight: auto;float: left;"><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/jenya.png" alt style="max-height: 100px; wight: auto;float: left;"><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/jenya.png" alt style="max-height: 100px; wight: auto;float: left;"><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/jenya.png" alt style="max-height: 100px; wight: auto;float: left;"><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/jenya.png" alt style="max-height: 100px; wight: auto;float: left;"><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/jenya.png" alt style="max-height: 100px; wight: auto;float: left;"><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/jenya.png" alt style="max-height: 100px; wight: auto;float: left;"><img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/jenya.png" alt style="max-height: 100px; wight: auto;float: left;"></div>
-      <p style="color: navy; clear: both;">Что там еще надо было добавить на сайт? <span style="font-size: 10px; color: indigo">Псевдографика, section и nav </span>хмхмххмхм........<span style="color: chartreuse"> Давайте делать, ничего не поделаешь</span></p>
-      <h2>Так, стоп</h2>
-      <div style="background: black; width: 80%; margin-left: auto; margin-right: auto; display: block; padding: 20px 0 0 0;">
-        <img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/dog.png" alt style="width: 40%; margin-left: auto; margin-right: auto; display: block; padding: 30px 0 0 0; border: solid white;" title="dog">
-        <p style="color: white; font-size: 20px; text-align: center; overflow: hidden;"><span>АХАХАХАХаххХАХХахХАХАХАХАХАХАххХАХахАХХАХАХАХАХхАХАХАХАх</span></p>
-        <p style="color: white; font-size: 16px; text-align: center;">Кто это?</p>
-        <p style="color: white; font-size: 12px; text-align: center;">Подпись у картинки dog, ты не видишь чтоли?</p>
-        <p style="color: white; font-size: 12px; text-align: center;">Вижу.</p>
-        <p style="color: white; font-size: 11px; text-align: center;">Аааааааа, ну ладно)</p>
-        <p style="color: white; font-size: 8px; padding: 0 0 20px 0; text-align: center;">Вставить текст</p>
-      </div>
-      <pre style="color: red;" class="stroked" title="Нереальный рисунок карандашом">
-          ;'*¨'`·- .,  ‘                            ,.,   '                 ,.         ,·´'; '      ,-·-.          ,'´¨;                    ,.,   '      
-    \`:·-,. ,   '` ·.  '                    ;´   '· .,           ;'´*´ ,'\       ,'  ';'\°     ';   ';\      ,'´  ,':\'                ;´   '· .,     
-     '\:/   ;\:'`:·,  '`·, '               .´  .-,    ';\         ;    ';::\      ;  ;::'\      ;   ';:\   .'   ,'´::'\'             .´  .-,    ';\   
-      ;   ;'::\;::::';   ;\              /   /:\:';   ;:'\'      ;      '\;'      ;  ;:::;      '\   ';::;'´  ,'´::::;'             /   /:\:';   ;:'\' 
-      ;  ,':::;  `·:;;  ,':'\'          ,'  ,'::::'\';  ;::';     ,'  ,'`\   \      ;  ;:::;        \  '·:'  ,'´:::::;' '           ,'  ,'::::'\';  ;::'; 
-     ;   ;:::;    ,·' ,·':::;      ,.-·'  '·~^*'´¨,  ';::;     ;  ;::;'\  '\    ;  ;:::;          '·,   ,'::::::;'´         ,.-·'  '·~^*'´¨,  ';::; 
-     ;  ;:::;'  ,.'´,·´:::::;      ':,  ,·:²*´¨¯'`;  ;::';    ;  ;:::;  '\  '\ ,'  ;:::;'           ,'  /::::::;'  '         ':,  ,·:²*´¨¯'`;  ;::'; 
-    ':,·:;::-·´,.·´\:::::;´'       ,'  / \::::::::';  ;::';   ,' ,'::;'     '\   ¨ ,'\::;'          ,´  ';\::::;'  '           ,'  / \::::::::';  ;::'; 
-     \::;. -·´:::::;\;·´         ,' ,'::::\·²*'´¨¯':,'\:;    ;.'\::;        \`*´\::\; °         \`*ª'´\\::/‘             ,' ,'::::\·²*'´¨¯':,'\:;  
-      \;'\::::::::;·´'            \`¨\:::/          \::\'    \:::\'          '\:::\:' '            '\:::::\';  '            \`¨\:::/          \::\'  
+    </div>
+    <h1 class="left">
+        <sup class="red">a</sup>
+        <sub class="green">b</sub>
+        <sup class="red">o</sup>
+        <sub class="purple">b</sub>
+        <sup class="red">a</sup>
+    </h1>
+    <h1 class="right">
+        <sup class="red">a</sup>
+        <sub class="purple">b</sub>
+        <sup class="red">o</sup>
+        <sub class="green">b</sub>
+        <sup class="red">a</sup>
+    </h1>
+    <div class="background_blue">
+        <h4 class="pink background_green">Мое жизненное кредо:</h4>
+        <q class="green stroked">Становись лучше каждый день, чтобы 💫
+            <span class="background_white ex_shadow stroked">
+                <span class="red stroked">б</span>
+                <span class="orange">ы</span>
+                <span class="yellow">в</span>
+                <span class="green">ш</span>
+                <span class="blue">а</span>
+                <span class="purple">я</span>
+            </span>
+            🌟 к тебе вернулась.
+        </q>
+    </div>
+    <h3 class="purple">Мои достижения</h3>
+    <ul>
+        <li>
+            Расстаться с
+            <a href="https://vk.com/careenin" title="Если у меня с ней ничего не сложится, то я убью себя">девушкой</a>
+            , которая нереально меня любила
+        </li>
+    </ul>
+    <p>
+        А я еще сюда Женю вставлю. Это же
+        <span class="red fontsize_20"> МОЙ </span>
+        сайт.
+        <u>Что хочу, то и делаю.</u>
+    </p>
+    <img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/jenya.png" alt class="clear width_auto max_height_100">
+    <p>Если захочу — вставлю 10 Жень.</p>
+    <p>А знаете что?</p>
+    <h2 class="yellow stroked">Захочу!</h2>
+    <div>
+        <img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/jenya.png" alt class="max_height_100 left">
+        <img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/jenya.png" alt class="max_height_100 left">
+        <img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/jenya.png" alt class="max_height_100 left">
+        <img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/jenya.png" alt class="max_height_100 left">
+        <img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/jenya.png" alt class="max_height_100 left">
+        <img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/jenya.png" alt class="max_height_100 left">
+        <img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/jenya.png" alt class="max_height_100 left">
+        <img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/jenya.png" alt class="max_height_100 left">
+        <img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/jenya.png" alt class="max_height_100 left">
+        <img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/jenya.png" alt class="max_height_100 left">
+    </div>
+    <p class="navy clear">Что там еще надо было добавить на сайт?
+        <span class="indigo fontsize_10">Псевдографика, section и nav </span>
+        хмхмххмхм........
+        <span class="chartreuse"> Давайте делать, ничего не поделаешь</span>
+    </p>
+    <h2>Так, стоп</h2>
+    <div class="background_black width_50 margin_left_auto margin_right_auto block padding_top_20">
+        <img src="https://raw.githubusercontent.com/danyaffff/ITMO-WEB/main/dog.png" alt class="width_40 margin_left_auto margin_right_auto block border_solid_white" title="dog">
+        <p class="white fontsize_20 centered_text overflow_hidden">
+            <span>АХАХАХАХаххХАХХахХАХАХАХАХАХАххХАХахАХХАХАХАХАХхАХАХАХАх</span>
+        </p>
+        <p class="white font_size_16 centered_text">Кто это?</p>
+        <p class="white font_size_12 centered_text">Подпись у картинки dog, ты не видишь чтоли?</p>
+        <p class="white font_size_12 centered_text">Вижу.</p>
+        <p class="white font_size_11 centered_text">Аааааааа, ну ладно)</p>
+        <p class="white font_size_8 centered_text padding_bottom_20">Вставить текст</p>
+    </div>
+    <pre class="red stroked" title="Нереальный рисунок карандашом">
+        ;'*¨'`·- .,  ‘                            ,.,   '                  ,.         ,·´'; '      ,-·-.          ,'´¨;                    ,.,   '
+        \`:·-,. ,   '` ·.  '                   ;´   '· .,           ;'´*´ ,'\       ,'  ';'\°     ';   ';\      ,'´  ,':\'                ;´   '· .,
+        '\:/   ;\:'`:·,  '`·, '              .´  .-,    ';\         ;    ';::\      ;  ;::'\      ;   ';:\   .'   ,'´::'\'             .´  .-,    ';\
+        ;   ;'::\;::::';   ;\              /   /:\:';   ;:'\'      ;      '\;'      ;  ;:::;      '\   ';::;'´  ,'´::::;'             /   /:\:';   ;:'\'
+       ;  ,':::;  `·:;;  ,':'\'          ,'  ,'::::'\';  ;::';     ,'  ,'`\   \      ;  ;:::;        \  '·:'  ,'´:::::;' '           ,'  ,'::::'\';  ;::';
+      ;   ;:::;    ,·' ,·':::;      ,.-·'  '·~^*'´¨,  ';::;     ;  ;::;'\  '\    ;  ;:::;          '·,   ,'::::::;'´         ,.-·'  '·~^*'´¨,  ';::;
+     ;  ;:::;'  ,.'´,·´:::::;      ':,  ,·:²*´¨¯'`;  ;::';    ;  ;:::;  '\  '\ ,'  ;:::;'           ,'  /::::::;'  '         ':,  ,·:²*´¨¯'`;  ;::';
+    ':,·:;::-·´,.·´\:::::;´'       ,'  / \::::::::';  ;::';   ,' ,'::;'     '\   ¨ ,'\::;'          ,´  ';\::::;'  '           ,'  / \::::::::';  ;::';
+     \::;. -·´:::::;\;·´         ,' ,'::::\·²*'´¨¯':,'\:;    ;.'\::;        \`*´\::\; °         \`*ª'´\\::/‘             ,' ,'::::\·²*'´¨¯':,'\:;
+      \;'\::::::::;·´'            \`¨\:::/          \::\'    \:::\'          '\:::\:' '            '\:::::\';  '            \`¨\:::/          \::\'
          `\;::-·´                 '\::\;'            '\;'  '    \:'             `*´'‚                `*ª'´‘                 '\::\;'            '\;'  '
-                                    `¨'                                                             '                      `¨'                   
+                                    `¨'                                                             '                      `¨'
       </pre>
-    </main>
-    <footer style="clear: both;">
-      <p style="z-index: 10; float: right;">© КоПиРаЙт Даниил Храповицкий M33061 2021 век, сентябрь гориииит убийца плачет нооо он не смог поступить иначеее прольееееется кроооооооооооооовь<span style="float: right;"><a name="socials"><a href="https://vk.com/danyaffff"><img src="https://upload.wikimedia.org/wikipedia/commons/0/00/Vk_Logo.svg" alt="Мой ВК" style="width: 30px; height: 30px;" title="я в vkontakte.ru"></a></a></span><br>Сдeлано с Любовью ❤️<span class="jenechka">к Женечке 🥀16.01.2018-20.12.2020🥀</span></p>
-    </footer>
-  </body>
+</main>
+<footer class="clear">
+    <p class="z_10 right">
+        © КоПиРаЙт Даниил Храповицкий M33061 2021 век, сентябрь гориииит убийца плачет нооо он не смог поступить иначеее прольееееется кроооооооооооооовь
+        <span class="right">
+        <a name="socials">
+            <a href="https://vk.com/danyaffff">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/00/Vk_Logo.svg" alt="Мой ВК" class="size_30px" title="я в vkontakte.ru">
+            </a>
+        </a>
+        </span><br>
+        Сдeлано с Любовью ❤
+        ️<span class="jenechka">к Женечке 🥀16.01.2018-20.12.2020🥀</span>
+    </p>
+</footer>
+</body>
 </html>
