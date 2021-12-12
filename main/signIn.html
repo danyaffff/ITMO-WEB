@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Главпочтамт: вход</title>
+    <link rel="stylesheet" href="../styles/common.css">
+    <link rel="stylesheet" href="../styles/signIn.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="page">
+    <header class="header">
+        <div class="header__inner">
+            <a id="title" class="nav__title" href="index.html" onclick="nav_click(this)">
+                <h1>Главпочтамт</h1>
+            </a>
+            <nav>
+                <a id="sign_up" class="nav__link nav__link__hoverable" href="signUp.html" onclick="nav_click(this)">Зарегистрироваться</a>
+                <a id="sign_in" class="nav__link nav__link__selected" href="#" onclick="nav_click(this)">Войти</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <form class="form">
+            <input class="input" type="text" placeholder="Вставить">
+            <button type="submit">Добавить</button>
+        </form>
+        <ul class="items">
+        </ul>
+    </main>
+</div>
+<script src="../scripts/signIn.js"></script>
+</body>
+</html>
