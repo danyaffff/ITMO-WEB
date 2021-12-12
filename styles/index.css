@@ -1,0 +1,59 @@
+/* Main */
+.main__slogan {
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.main__poem {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+/* Circles */
+.circle_0 {
+    width: 106vh;
+    height: 106vh;
+    background: #e03d18;
+    border-radius: 50%;
+    position: fixed;
+    right: -20vh;
+    bottom: -20vh;
+    z-index: -2;
+}
+
+.circle_1 {
+    width: 20vh;
+    height: 20vh;
+    background: white;
+    border-radius: 50%;
+    mix-blend-mode: difference;
+    position: fixed;
+    left: 23vw;
+    bottom: 37vh;
+    z-index: 2;
+}
+
+/* Triangles */
+.triangle {
+    border-left: 3vw solid transparent;
+    border-right: 5vw solid transparent;
+    border-bottom: 50vh solid #e03d18;
+    position: fixed;
+    bottom: 5vh;
+    transform: rotate(-0.1turn);
+    left: 10vw;
+    z-index: -1;
+}
+
+/* Rectangles */
+.rectangle {
+    width: 20vh;
+    height: 70vh;
+    background: white;
+    position: fixed;
+    z-index: 998;
+    transform: rotate(0.2turn);
+    mix-blend-mode: difference;
+    bottom: 0;
+    left: 20vh;
+}
