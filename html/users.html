@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Маяк!</title>
+    <link href="../css/index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <script src="../js/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/notie/dist/notie.min.css">
+</head>
+<body>
+
+<nav style="background: green">
+    <ul class="nav__menu__left">
+        <li>
+            <a href="index.html" class="nav__menu__active">Я!</a>
+        </li>
+    </ul>
+
+    <ul class="nav__menu__right">
+        <li><a href="todo.html">TODO</a></li>
+        <li><a href="#">Users</a></li>
+    </ul>
+</nav>
+
+<main>
+    <button id="load_users">
+        Загрузить рандомного пользователя
+    </button>
+</main>
+</body>
+<script src="../js/users.js"></script>
+<script src="https://unpkg.com/notie"></script>
+<script>notie.alert({type: 1, text: "Привет на моем сайте!"})</script>
+</html>
